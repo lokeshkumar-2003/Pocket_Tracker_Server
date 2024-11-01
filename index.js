@@ -16,7 +16,7 @@ const { PORT } = process.env;
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://pocket-tracker-frontend.onrender.com",],
     methods: ["POST", "GET", "PUT", "DELETE"],
     credentials: true,
   })
